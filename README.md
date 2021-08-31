@@ -1,4 +1,4 @@
-# One-Block Tetris Homework
+# One-Block Tetris (Homework 1)
 
 In this homework you will develop your first micro:bit program &ndash; a simplified version of the popular game [TETRIS](https://en.wikipedia.org/wiki/Tetris). The main difference is that there is only one type of block - a single pixel.
 
