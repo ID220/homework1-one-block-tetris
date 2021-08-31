@@ -3,31 +3,27 @@ from microbit import *
 from timer import *
 
 # CONSTANTS
-UI_REFRESH = 200
+UI_REFRESH = 500
 INPUT_REFRESH = 100
 
 
 # update this every 500ms
 def updatelogic():
-    if (display.get_pixel(0, 0) == 0):
-        display.set_pixel(0, 0, 9)
-    else:
-        display.set_pixel(0, 0, 0)
+    # your logic here
+    pass
 
 
 # update this every 100ms
 def updateInputUI():
-    if (display.get_pixel(1, 1) == 0):
-        display.set_pixel(1, 1, 9)
-    else:
-        display.set_pixel(1, 1, 0)
+    # your logic here
+    pass
 
 
 # main
 while True:
-
     # your logic here
 
-    # these two will allow you to have 2 times
+    # these two functions set a callback to be called
+    # at respectively 500 and 100 milliseconds
     tick(INPUT_REFRESH, updateInputUI)
     tick(UI_REFRESH, updatelogic)
