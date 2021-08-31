@@ -5,7 +5,7 @@ In this homework you will develop your first micro:bit program &ndash; a simplif
 The objective of this homework is to let you **familiarize with the MicroPython/micro:bit developing environment**, as well as understanding **non-blocking scheduling**.
 
 <p align="center">
-<img src="images/tetris.gif" width="400" />
+<img src="images/tetris.gif" width="500" />
 </p>
 
 ## Content of this folder
@@ -56,7 +56,9 @@ def changeX (newX):
 
 Zip your MicroPython sketch (_zip_, not ALZIP, rar or others) and submit this file using the [homework submission system](homework.prototyping.id).
 
-![](images/hwsystem.png)
+<p align="center">
+<img src="images/hwsystem.png" width="500" />
+</p>
 
 Please note that:
 
