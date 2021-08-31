@@ -1,13 +1,18 @@
-# one-block-tetris
+# One-Block Tetris Homework
 
-One-block Tetris
+In this homework you will develop your first micro:bit program - a simplified version of the popular game [TETRIS](https://en.wikipedia.org/wiki/Tetris). The main difference is that there is only one type of clock - a single pixel. You do not need any additional hardware but a micro:bit.
 
-# Instructions
+![](/images/tetris.gif)
 
-Obfuscate
-`pyminifier --obfuscate-function --obfuscate-variables --replacement-length=5 main.py > obfuscated/main.py`
+## What does this folder contains
 
-Upload on microbit using ufs
-Download hex using ubittool-cli-mac
+- _src_ source folder with your python code (_main.py_ and an helper file _timer.py_).
+- _demo_ a folder that contains the working example of the game you have to make. Simply drag the _hex_ file on your micro:bit for testing it.
+- _images_ a folder with some images for this document.
+- _README_ this file, containing the instructions.
 
-`./ubittool-cli-mac read-flash -f tetris-demo.hex`
+## Instructions
+
+- Download or clone this folder
+- Open source with VSCode and the MicroPython extension
+-
