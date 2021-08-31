@@ -4,7 +4,9 @@ In this homework you will develop your first micro:bit program &ndash; a simplif
 
 The objective of this homework is to let you **familiarize with the MicroPython/micro:bit developing environment**, as well as understanding **non-blocking scheduling**.
 
+<p align="center">
 <img src="images/tetris.gif" width="400" />
+</p>
 
 ## Content of this folder
 
