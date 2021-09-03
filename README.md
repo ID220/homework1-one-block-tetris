@@ -33,7 +33,10 @@ The objective of this homework is to let you **familiarize with the MicroPython/
 
 ## Tips
 
-- Consider using a list to keep track of the state (on/off) of each one of the 25 pixels.
+- Consider using a list to keep track of the state (on/off) of each one of the 25 pixels. You do not need to use multi-dimensional lists (e.g., a 2x2 list). Instead you could use a single 1D list with 25 items. If you want to address a specific point (x, y) you can use the following formula: ` indexInList = y*COLS + x`, where COLS is the number of columns (in this case 5). Here an example
+
+![](images/formula.
+
 - The brightness of the builtin LEDs is between 0 (off) and 9 (fully on). In my demo I used the max brightness of 9.
 - If you need to change the values assigned to global variables of immutable types (e.g., numbers and booleans) remember to use the keyword `global`. Here an example
 
