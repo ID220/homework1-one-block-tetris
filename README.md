@@ -33,9 +33,11 @@ The objective of this homework is to let you **familiarize with the MicroPython/
 
 ## Tips
 
-- Consider using a list to keep track of the state (on/off) of each one of the 25 pixels. You do not need to use multi-dimensional lists (e.g., a 2x2 list). Instead you could use a single 1D list with 25 items. If you want to address a specific point (x, y) you can use the following formula: ` indexInList = y*COLS + x`, where COLS is the number of columns (in this case 5). Here an example
+- Consider using a list to keep track of the state (on/off) of each one of the 25 pixels. You do not need to use multi-dimensional lists (e.g., a 2x2 list). Instead you could use (but it is up to you) a single 1D list with 25 items. If you want to address a specific point (x, y) you can use the following formula: ` indexInList = y*COLS + x`, where COLS is the number of columns (in this case 5). Here an example, if you want to access the poit (3,2), you need to address the 13th LED (the 13th element of your list).
 
-![](images/formula.
+<p align="center">
+<img src="images/formula.png" width="500" />
+</p>
 
 - The brightness of the builtin LEDs is between 0 (off) and 9 (fully on). In my demo I used the max brightness of 9.
 - If you need to change the values assigned to global variables of immutable types (e.g., numbers and booleans) remember to use the keyword `global`. Here an example
