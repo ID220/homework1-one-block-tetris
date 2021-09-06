@@ -59,7 +59,7 @@ def changeX (newX):
 
 ## Submission and grading
 
-Zip your MicroPython sketch (_zip_, not ALZIP, rar or others) and submit this file using the [homework submission system](homework.prototyping.id).
+Zip your MicroPython sketch (_zip_, not ALZIP, rar or others) and submit this file using the [homework submission system](https://homework.prototyping.id).
 
 <p align="center">
 <img src="images/hwsystem.png" width="500" />
