@@ -35,7 +35,7 @@ In terms of hardware you need a _RPI_, the [BlinkPico shield](https://github.com
 
 ### Code requirments
 
-- The BlinkPico is an 8x8 matrix. Blocks always start at position [0,3] and move downward, 1 row at a time every _500ms_. If there is an obstacle underneath, the block stops there.
+- The BlinkPico is an 8x8 matrix. Blocks always start at position [0,3] and move downward, 1 row at a time every _200ms_. If there is an obstacle underneath, the block stops there.
 - You can use the _left_ (A) and _right_ (B) buttons to move the current block. The system checks for a user input every _100ms_.
 - Blocks cannot move to locations that are already occupied.
 - If blocks form a _full row_, the row is deleted.
