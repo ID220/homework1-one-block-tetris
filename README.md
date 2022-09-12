@@ -51,6 +51,7 @@ In terms of hardware you need a _RPI_, the [BlinkPico shield](https://github.com
 </p>
 
 - The brightness of the built-in LEDs is between 0 (off) and 100 (fully on). In my demo, I used the brightness of 50 but you can change it.
+- The logic update refresh is _200ms_ but I suggest you to start with a slower refresh rate (like _500ms_) and change it when your logic is complete.
 - If you need to change the values assigned to global variables of immutable types (e.g., numbers and booleans) remember to use the keyword `global`. Here an example
 
 ```python
