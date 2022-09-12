@@ -19,7 +19,8 @@ def tick(ms, callback):
 
 # CONSTANTS
 INPUT_REFRESH = 100
-LOGIC_REFRESH = 500
+LOGIC_REFRESH = 500 # start with a slow refresh
+# LOGIC_REFRESH = 200 # lower it later when ready
 
 
 # update this every 500ms
