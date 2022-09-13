@@ -44,7 +44,7 @@ In terms of hardware you need a _RPI_, the [BlinkPico shield](https://github.com
 
 ### Tips
 
-- Consider using a list to keep track of the state (on/off) of each one of the 64 pixels. You do not need to use multi-dimensional lists (e.g., a 2x2 list). Instead, you could use (but it is up to you) a single 1D list with 25 items. If you want to address a specific point (x, y) you can use the following formula: ` indexInList = y*COLS + x`, where COLS is the number of columns (in this case 8). Here is an example, if you want to access the point (3,2), you need to address the 19th LED (the 19th element of your list).
+- Consider using a list to keep track of the state (on/off) of each one of the 64 pixels. You do not need to use multi-dimensional lists (e.g., a 2x2 list). Instead, you could use (but it is up to you) a single 1D list with 64 (8x8) items. If you want to address a specific point (x, y) you can use the following formula: ` indexInList = y*COLS + x`, where COLS is the number of columns (in this case 8). Here is an example, if you want to access the point (3,2), you need to address the 19th LED (the 19th element of your list).
 
 <p align="center">
 <img src="images/formula.png" width="500" />
